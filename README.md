@@ -1,4 +1,4 @@
-# Move The Dots
+# Move The Dots - https://ruthenewman.github.io/MoveTheDots/
 Day 2 of  of challenge to build 30 vanilla JS projects over 30 days (drag and drop game with polka dots)
 
 A vanilla JS project with three primary files (index.html, index.js and style.css), as well as an image file
