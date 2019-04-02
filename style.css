@@ -1,0 +1,53 @@
+body {
+  background-color: #ff4949;
+}
+
+.main-heading, .info {
+  text-align: center;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fill {
+  background-image: url('./Red-Dots-1985.jpg');
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: 5px;
+  left: 5px;
+  margin: 0;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border-radius: 100%;
+  border: 3px white solid;
+  background-color: white;
+}
+
+.hold {
+  border: solid lightgrey;
+  border-radius: 0;
+}
+
+.hovered {
+  border-radius: 100%;
+  background: lightgrey;
+  border-style: dotted;
+}
+
+.invisible {
+  display: none;
+}
