@@ -1,5 +1,7 @@
 body {
   background-color: #ff4949;
+  height: 100vh;
+  overflow: visible;
 }
 
 .main-heading, .info {
@@ -50,4 +52,27 @@ body {
 
 .invisible {
   display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .empty {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 3px white solid;
+    background-color: white;
+  }
+  .fill {
+    background-image: url(./Red-Dots-1985.jpg);
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: -0.2px;
+    left: -0.01px;
+    margin: 0;
+    border-radius: 100%;
+    cursor: pointer;
+  }
 }
